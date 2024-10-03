@@ -3,4 +3,44 @@
     --secondary-color: #045671;
     --accent1-color: #9c805d;
     --accent2-color: #cfa24b;
+
+}
+.libre-baskerville-regular {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .squada-one-regular {
+    font-family: "Squada One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+body {
+    max-width: 1000px;
+    margin: auto;
+
+}
+p {
+    font-size: 20px;
+    color: var(--secondary-color);
+    font-weight: 400; 
+}
+h1 {
+    font-size: x-large;
+    color: var(--primary-color);
+}
+h2 {
+    font-size: large;
+    color: var(--primary-color);
+}
+header nav {
+    text-decoration: none;
+    color: #f87e42;
+}
+.hero {
+    background-image: url('coffeshop.jpg');
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: auto;
 }

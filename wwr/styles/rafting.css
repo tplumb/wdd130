@@ -33,14 +33,9 @@ h2 {
     font-size: large;
     color: var(--primary-color);
 }
-header nav {
-    text-decoration: none;
-    color: #f87e42;
-}
-.hero {
-    background-image: url('coffeshop.jpg');
-    background-size: cover;
-    background-position: center;
+
+.hero img {
+    display: block;
+    width: 100%;
     height: auto;
-    width: auto;
 }

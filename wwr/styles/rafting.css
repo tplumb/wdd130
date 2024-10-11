@@ -96,13 +96,13 @@ nav {
 
 .navigation a {
 	display: block;
-	color: navy;
+	color: var(--secondary-color);
 	padding: 20px;
 	text-decoration: none;
 }
 
 .navigation a:hover {
-	color: tomato;
+	color: var(--accent2-color);
 	font-weight: 700;
 	text-decoration: underline;
 }

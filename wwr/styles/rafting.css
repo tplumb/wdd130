@@ -152,4 +152,26 @@ nav {
   text-align: center;
   padding: 10px;
   }
-  
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--accent1-color); 
+}
+
+.sociallinks {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+    
+.sociallinks a {
+  margin-left: 20px;
+}
+    
+.sociallinks img {
+  width: 30px; 
+  height: auto;
+
+    }

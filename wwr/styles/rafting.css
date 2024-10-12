@@ -128,4 +128,28 @@ nav {
   object-fit: cover;
   border-radius: 10px;
 }
-
+.adventure-gallery {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  }
+  
+  .adventure-image {
+  width: 20%;
+  margin: 10px;
+  }
+  
+  .adventure-image img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  }
+  
+  .adventure-image figcaption {
+  font-size: 14px;
+  color: var(--secondary-color);
+  text-align: center;
+  padding: 10px;
+  }
+  

@@ -27,11 +27,11 @@ p {
 }
 h1 {
   font-size: x-large;
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 h2 {
   font-size: large;
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .hero {

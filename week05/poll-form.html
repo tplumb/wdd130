@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 130 | HTML Form - User Poll</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/poll-form.css">
 </head>
 <body>
     <header>
@@ -13,15 +17,38 @@
         <form>
             <fieldset>
                 <legend>Contact Information</legend>
-                <label for="fullname">Full Name:</label>
-                <input type="text" id="fullname" name="fullname">
-                <label for="useremail">Email</label>
-                <input type="email" id="useremail" name="useremail">
+                <div class="form-item column2">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+                <div class="form-item column2">
+                    <label for="useremail">Email</label>
+                    <input type="email" id="useremail" name="useremail">
+                </div>
+
             </fieldset>
             <fieldset>
                 <legend>Questions</legend>
-                <button type="submit">Submit Poll</button>
+                <div class="form-item comlumn1">
+                    <label for="browser">What is your favorite browser?</label>
+                        <select name="browser" id="browser">
+                        <option value="">Select a browser</option>
+                        <option value="chrome">Google Chrome</option>
+                        <option value="firefox">Mozilla Firefox</option>
+                        <option value="safari">Apple Safari</option>
+                        <option value="edge">Microsoft Edge</option>
+                        <option value="other">Other</option>
+                        </select>
+                </div>
+                <div class="form-item comlumn1">
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" name="pet" id="pet">
+                </div>
+                    <label for="feedback">List the places you have lived:</label>
+                    <textarea id="feedback" name="feedback" rows="4" placeholder="Mesa AZ, Fresno CA, Paris France"></textarea>
+                    <button type="submit">Submit Poll</button>
             </fieldset>
+
         </form>
     </main>
     <footer>

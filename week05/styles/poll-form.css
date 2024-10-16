@@ -1,0 +1,104 @@
+.barlow-regular {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.barlow-bold {
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+.barlow-regular-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+body {
+    font-family: "Barlow", sans-serif;
+    font-size: medium;
+    color: black;
+    background: #fff;
+}
+header {
+    background-color: royalblue;
+    margin: 0 auto;
+    width: 700 px;
+}
+h1 {
+    margin: 1rem;
+    font-size: larger;
+    color: whitesmoke;
+    text-align: center;
+}
+form {
+    width: 700px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1.5px solid royalblue;
+    border-radius: 1rem;
+    background-color: wheat;
+    display: grid;
+}
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1.5px solid royalblue;
+    padding: 1rem;
+}
+legend{
+    padding: .5rem;
+    color: royalblue;
+    font-size: large;
+}
+label {
+    text-align: left;
+    padding-right: 2rem;
+}
+input, select,textarea {
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+    vertical-align: bottom;
+}
+button {
+    margin: 1rem;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    border-radius: .25rem;
+    padding: .75rem;
+    font-size: 1.1rem;
+}
+button:hover {
+    background-color: grey;
+}
+footer {
+    margin: 1rem auto 0;
+    width: 700px;
+    text-align: center;
+    font-size: .8em;
+    color: royalblue;
+    border-top: 1px solid royalblue;
+}
+.form-item {
+    display: grid;
+    align-items: center;
+}
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: .5rem 0;
+}
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}

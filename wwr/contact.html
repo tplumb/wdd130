@@ -58,17 +58,12 @@
             <label for="email">Email Address:</label>
             <input type="email" id="email" name="email" required>
             
-            <label for="purpose">Purpose of Message:</label>
-                        
-            <input type="radio" id="general-inquiry" name="purpose" value="General Inquiry" checked>
-            <label for="general-inquiry">General Inquiry</label>
-                        
-            <input type="radio" id="reservation-question" name="purpose" value="Reservation Question">
-            <label for="reservation-question">Reservation Question</label>
-            
-            <input type="radio" id="website-suggestion" name="purpose" value="Website Suggestion">
-            <label for="website-suggestion">Website Suggestion</label>
-            
+            <fieldset id="purpose">
+                <legend>Purpose of Message:</legend>
+                <input type="radio" id="purpose" name="purpose" value="General Inquiry" checked> General Inquiry
+                <input type="radio" name="purpose" value="Reservation Question"> Reservation Question
+                <input type="radio" name="purpose" value="Website Suggestion"> Website Suggestion
+                </fieldset>
             <label for="message">Message:</label>
             <textarea id="message" name="message" required></textarea>
             

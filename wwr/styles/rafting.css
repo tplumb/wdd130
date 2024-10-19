@@ -40,7 +40,7 @@ h2 {
   height: auto;
 }
 
-  .hero img {
+.hero img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -174,4 +174,114 @@ nav {
   width: 30px; 
   height: auto;
 
-    }
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr; /* single column */
+  grid-gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+.hero {
+  grid-column: 1;
+}
+.contact-info {
+  grid-column: 1;
+}
+.contact-form {
+  grid-column: 1;
+}
+.contact-form {
+  grid-column: 1;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+
+
+.contact-form h2 {
+  font-size: 28px;
+  color: var(--secondary-color);
+  margin-top: 0;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form-group label {
+  font-size: 18px;
+  color: var(--secondary-color);
+  margin-bottom: 10px;
+}
+
+.form-group input[type="text"], 
+.form-group input[type="email"], 
+.form-group textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.form-group textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+.purpose {
+  border: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.purpose input[type="radio"] {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.purpose label {
+  font-size: 18px;
+  color: var(--secondary-color);
+}
+
+.submit-btn {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  width: 100%;
+}
+
+.submit-btn:hover {
+  background-color: var(--accent2-color);
+}
+
+.newsletter-checkbox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.newsletter-checkbox input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.newsletter-checkbox label {
+  font-size: 18px;
+  color: var(--secondary-color);
+}

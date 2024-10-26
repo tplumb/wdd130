@@ -370,9 +370,6 @@ button[type="submit"] {
   cursor: pointer;
 }
 
-button[type="submit"]:hover {
-  background-color: var(--accent2-color); /
-}
 table {
 border: 5px solid var(--secondary-color);
 border-width: 5px;

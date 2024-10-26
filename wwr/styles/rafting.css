@@ -333,3 +333,43 @@ nav {
   display: grid;
   align-items: center;
 }
+.trip-row {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.trip-row img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  justify-content: space-around;
+}
+
+.trip-row p {
+  grid-column: 2;
+  margin: 0;
+}
+.index-form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: var(--secondary-color); 
+}
+
+button[type="submit"] {
+  background-color: var(--primary-color); 
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: var(--accent2-color); /
+}

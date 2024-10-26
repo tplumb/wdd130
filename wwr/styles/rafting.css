@@ -175,9 +175,9 @@ nav {
   height: auto;
 
 }
-main {
+.main {
   display: grid;
-  grid-template-columns: 1fr; /* single column */
+  grid-template-columns: 1fr;
   grid-gap: 20px;
   max-width: 1000px;
   margin: auto;
@@ -200,8 +200,6 @@ main {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-  
-
 
 .contact-form h2 {
   font-size: 28px;
@@ -311,4 +309,27 @@ main {
   color: var(--secondary-color);
   text-align: center;
   padding: 10px;
+}
+.index-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.index-grid img {
+  width: 100%;
+  height: auto;
+  border: #045671;
+  padding: 1px;
+  outline: #045671;
+}
+
+.purpose-offerings {
+  grid-column: 1 / 4;
+  font-size: larger;
+  font-style:oblique;
+}
+.form-item {
+  display: grid;
+  align-items: center;
 }

@@ -373,3 +373,20 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color: var(--accent2-color); /
 }
+table {
+border: 5px solid var(--secondary-color);
+border-width: 5px;
+letter-spacing: 1px;
+}
+caption {
+  font-weight: bold;
+}
+thead {
+  background-color: var(--accent2-color);
+}
+
+th, td {
+  border: 1px solid var(--secondary-color);
+  padding: 2px 2px;
+  text-align: center;
+}
